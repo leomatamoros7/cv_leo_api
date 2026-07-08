@@ -1,0 +1,1 @@
+web: gunicorn api:app --log-file - --log-level debug --bind
